@@ -1,0 +1,35 @@
+.title {
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #062847;
+    padding-top: 180px;
+    padding-left: 120px;
+    padding-bottom: 570px;
+    position: absolute;
+}
+
+.subtitle {
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 36px;
+    color: #5A6774;
+    margin-top: 380px;
+    margin-left: 120px;
+    position: absolute;
+}
+
+.email {
+    color: #1890FF;
+}
+
+.main-image {
+    width: 100%;
+}
