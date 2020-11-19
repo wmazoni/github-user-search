@@ -1,28 +1,25 @@
-.btn-container {
+.btn-button {
     width: 100px;
     height: 40px;
-    left: 120px;
-    top: 595px;
-    background: #1890FF;
+    background: #1890ff;
     border-radius: 4px;
-    margin-left: 120px;
-    margin-top: 680px;
-    
+    cursor: pointer;
+    outline: none;
+    border: none;
 }
 
-.config-text {
-
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    height: 24px;
-    left: 138px;
+.btn-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     display: flex;
+    justify-content: center;
     align-items: center;
-    text-align: center;
-    color: #FFFFFF;
-    margin-left: 11px;
-    margin-top: 6px;
+    margin-top: 8px;
+    color: #ffffff;
+  
+    
 }
+    
+  
