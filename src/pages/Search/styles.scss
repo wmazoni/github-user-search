@@ -1,11 +1,11 @@
 .search-container {
-    width: 1050px;
+    width: 1251px;
     height: 270px;
     background: #E6F7FF;
     border-radius: 16px;
     margin-top: 116px;
-    margin-left: 90px;
-    margin-right: 100px;
+    margin-left: 300px;
+    //margin-right: 200px;
     
 }
 
@@ -33,4 +33,122 @@
 
 .btn-search-container {
     margin-left: 95px;
+}
+
+.baseform-info {
+    width: 1251px;
+    height: 387px;
+    background: #F5F5F5;
+    border-radius: 8px;
+    margin-top: 54px;
+    margin-left: 300px;
+    display: flex;
+}
+
+.img-profile {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.image-style {
+    width: 284px;
+    height: 280px;
+    margin: 23px 0px 84px 30px;
+  }
+
+.top-components {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    //margin-bottom: 11px;
+    margin-left: 44px;
+}
+
+  .top-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #595959;
+    background: #fff;
+    padding: 1px 15px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+
+.btn-profile-container {
+    width: 101px;
+    height: 40px;
+    background: #1890FF;
+    border-radius: 4px;
+    margin-top: -70px;
+    margin-left: 30px;
+}
+
+.container-loader {
+  display: flex;
+}
+
+.left-components {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-loader {
+  margin-left: 25px;
+}
+
+.right-loader {
+  margin-top: 25px;
+  margin-left: -45px;
+}
+
+.right-components {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-components {
+  width: 870px;
+  height: 245px;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin-left: 44px;
+}
+.info {
+  width: 535px;
+  height: 30px;
+  margin: 8px 0 20px 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #1890ff;
+}
+
+.infos-text {
+  width: 840px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 0 15px 5px;
+  padding: 8px 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  color: #737373;
 }
